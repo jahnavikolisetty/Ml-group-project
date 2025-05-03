@@ -6,7 +6,7 @@ A user-friendly Streamlit GUI allows users to interactively explore recommendati
 
 Multiple models were trained and evaluated, and their performance was compared using appropriate metrics such as RMSE, MAE, Accuracy, Precision, Recall, and F1-Score to determine their effectiveness in recommendation quality.
 
-project structure :
+**project structure :**
 
  ┣  GUI_app.py                 # Streamlit interface
  ┣  ML_project.ipynb   # Model training and evaluation
@@ -17,7 +17,7 @@ from this link https://grouplens.org/datasets/movielens/20m/ and use these ratin
  ┗  README.md 
 
 
-Models Used :
+**Models Used :**
 Content-Based Filtering: TF-IDF on genres + cosine similarity
 
 Collaborative Filtering: KNN with cosine distance (Surprise & NearestNeighbors)
@@ -26,22 +26,22 @@ Classification Models: Logistic Regression, Naive Bayes, KNN
 
 Regression Model: XGBoost
 
-Dataset :
+**Dataset :**
 Based on MovieLens 20M, sampled to 100,000 rows for efficiency.
 
 Used: ratings.csv, movies.csv
 
 Preprocessed and merged into movielens_cleaned.csv
+https://grouplens.org/datasets/movielens/20m/
 
-
-Evaluation Metrics :
+**Evaluation Metrics :**
 Regression: RMSE, MAE
 
 Classification: Accuracy, Precision, Recall, F1-Score
 visualization for comparison of evaluation metrics
 
 
-GUI (Streamlit App) :
+**GUI (Streamlit App) :**
 Choose movie, genre, and rating threshold
 
 Get 10 recommendations using:
@@ -54,7 +54,7 @@ Clean interface with filter options
 
 
 
-How to Run the Project :
+**How to Run the Project :**
 Model Training & Evaluation
 Open the file ML_project.ipynb in Google Colab or visual studio or jupyter notebook
 
@@ -68,7 +68,7 @@ Evaluate results using RMSE, MAE, Precision, Recall, and F1-Score
 
 
 
-Running the GUI (Streamlit App) :
+**Running the GUI (Streamlit App) :**
 Open GUI_app.py in Visual Studio Code
 
 Make sure all required packages are installed (see requirements.txt)
